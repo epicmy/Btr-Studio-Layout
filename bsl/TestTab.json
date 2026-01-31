@@ -1,0 +1,166 @@
+{
+    "Controls": [
+        {
+            "Id": "637c2f9f-720d-4c17-9e67-b04b919a105b",
+            "Type": "IconButton",
+            "Action": {
+                "PluginId": "RunTools",
+                "DataModel": "Standalone",
+                "Category": "Actions",
+                "ItemId": "LaunchTestMode"
+            }
+        },
+        {
+            "Id": "330588d1-c73c-49b7-91de-541a890125b9",
+            "Type": "IconButton",
+            "Action": {
+                "PluginId": "RunTools",
+                "DataModel": "Standalone",
+                "Category": "Actions",
+                "ItemId": "PausePhysicsAll"
+            }
+        },
+        {
+            "Id": "eb204218-6444-40e2-8542-39cda16fdd06",
+            "Type": "IconButton",
+            "Action": {
+                "PluginId": "RunTools",
+                "DataModel": "Standalone",
+                "ItemId": "ResumePhysicsAll",
+                "Category": "Actions"
+            }
+        },
+        {
+            "Id": "514a830a-0f3e-43ad-abdc-7be46eb9ac88",
+            "Type": "IconButton",
+            "Action": {
+                "PluginId": "RunTools",
+                "DataModel": "Standalone",
+                "Category": "Actions",
+                "ItemId": "Stop"
+            }
+        },
+        {
+            "Size": "Large",
+            "Type": "Separator"
+        },
+        {
+            "Id": "b505b6c9-8080-473f-ad4d-8cb3ca2b7a1a",
+            "Type": "IconButton",
+            "Action": {
+                "PluginId": "RunTools",
+                "DataModel": "Standalone",
+                "Category": "Actions",
+                "ItemId": "ServerAndClients"
+            }
+        },
+        {
+            "Id": "LaunchPlayersMode_ServerAndClients",
+            "IsShort": true,
+            "Type": "Spinbox",
+            "Setting": {
+                "PluginId": "RunTools",
+                "DataModel": "Standalone",
+                "Category": "Settings",
+                "ItemId": "PlayersMode"
+            }
+        },
+        {
+            "Children": [
+                {
+                    "Type": "Row",
+                    "Children": [
+                        {
+                            "Id": "AddPlayer_ServerAndClients",
+                            "IsShort": true,
+                            "Type": "Spinbox",
+                            "Setting": {
+                                "PluginId": "RunTools",
+                                "DataModel": "Standalone",
+                                "Category": "Settings",
+                                "ItemId": "AddPlayer"
+                            }
+                        },
+                        {
+                            "Type": "Button",
+                            "TextKey": "Add",
+                            "Id": "AddClients_ServerAndClients",
+                            "TextOnly": true,
+                            "Action": {
+                                "PluginId": "RunTools",
+                                "DataModel": "Standalone",
+                                "Category": "Actions",
+                                "ItemId": "AddClients"
+                            },
+                            "Style": "Primary",
+                            "Size": "Small"
+                        }
+                    ],
+                    "Tags": "X-RowSpace200"
+                }
+            ],
+            "IconOnly": true,
+            "Type": "SplitButton",
+            "Id": "AddClients_ServerAndClients",
+            "Setting": {
+                "PluginId": "RunTools",
+                "DataModel": "Standalone",
+                "Category": "Settings",
+                "ItemId": "AddClients"
+            },
+            "Size": "Small"
+        },
+        {
+            "Id": "c7e810c5-a926-4705-ad22-58cb732918b6",
+            "Type": "IconButton",
+            "Action": {
+                "PluginId": "RunTools",
+                "DataModel": "Standalone",
+                "Category": "Actions",
+                "ItemId": "CleanupServerAndClients"
+            }
+        },
+        {
+            "Size": "Large",
+            "Type": "Separator"
+        },
+        {
+            "Id": "58e8a332-0480-497c-bc55-cedf42c20e95",
+            "Type": "IconButton",
+            "Action": {
+                "PluginId": "DeviceEmulation",
+                "DataModel": "Standalone",
+                "Category": "Actions",
+                "ItemId": "Toggle"
+            }
+        },
+        {
+            "Id": "a1caaa26-dc6d-41e1-953d-5531bd3af678",
+            "Type": "IconButton",
+            "Action": {
+                "PluginId": "PlayerEmulation",
+                "DataModel": "Standalone",
+                "ItemId": "Toggle",
+                "Category": "Actions"
+            }
+        },
+        {
+            "Type": "Separator",
+            "Size": "Large"
+        },
+        {
+            "Id": "2cfac0e9-c2c2-497a-87a6-bf33f9b30105",
+            "Type": "IconButton",
+            "Action": {
+                "PluginId": "AppConfiguration",
+                "DataModel": "Standalone",
+                "ItemId": "ToggleAudio",
+                "Category": "Actions"
+            }
+        },
+        {
+            "made_by": "epicmy"
+        }
+    ],
+    "Name": "Test"
+}

@@ -8,8 +8,8 @@
             "Action": {
                 "PluginId": "Common",
                 "DataModel": "Standalone",
-                "Category": "Actions",
-                "ItemId": "Undo"
+                "ItemId": "Undo",
+                "Category": "Actions"
             },
             "Size": "Small"
         },
@@ -19,14 +19,14 @@
             "Action": {
                 "PluginId": "Common",
                 "DataModel": "Standalone",
-                "ItemId": "Redo",
-                "Category": "Actions"
+                "Category": "Actions",
+                "ItemId": "Redo"
             },
             "Size": "Small"
         },
         {
-            "Type": "Separator",
-            "Size": "Large"
+            "Size": "Large",
+            "Type": "Separator"
         },
         {
             "Id": "Select",
@@ -34,8 +34,8 @@
             "Action": {
                 "PluginId": "BuilderTools",
                 "DataModel": "Standalone",
-                "Category": "Actions",
-                "ItemId": "Select"
+                "ItemId": "Select",
+                "Category": "Actions"
             }
         },
         {
@@ -44,8 +44,8 @@
             "Action": {
                 "PluginId": "BuilderTools",
                 "DataModel": "Standalone",
-                "ItemId": "Move",
-                "Category": "Actions"
+                "Category": "Actions",
+                "ItemId": "Move"
             }
         },
         {
@@ -54,8 +54,8 @@
             "Action": {
                 "PluginId": "BuilderTools",
                 "DataModel": "Standalone",
-                "Category": "Actions",
-                "ItemId": "Scale"
+                "ItemId": "Scale",
+                "Category": "Actions"
             }
         },
         {
@@ -64,16 +64,20 @@
             "Action": {
                 "PluginId": "BuilderTools",
                 "DataModel": "Standalone",
-                "Category": "Actions",
-                "ItemId": "Rotate"
+                "ItemId": "Rotate",
+                "Category": "Actions"
             }
+        },
+        {
+            "Size": "Large",
+            "Type": "Separator"
         },
         {
             "Setting": {
                 "PluginId": "BuilderTools",
                 "DataModel": "Standalone",
-                "Category": "Settings",
-                "ItemId": "DraggerMode"
+                "ItemId": "DraggerMode",
+                "Category": "Settings"
             },
             "Id": "DraggerMode",
             "Type": "SplitButton",
@@ -91,8 +95,8 @@
                             "Setting": {
                                 "PluginId": "BuilderTools",
                                 "DataModel": "Standalone",
-                                "Category": "Settings",
-                                "ItemId": "DraggerMode"
+                                "ItemId": "DraggerMode",
+                                "Category": "Settings"
                             }
                         },
                         {
@@ -101,8 +105,8 @@
                             "Setting": {
                                 "PluginId": "BuilderTools",
                                 "DataModel": "Standalone",
-                                "Category": "Settings",
-                                "ItemId": "Collisions"
+                                "ItemId": "Collisions",
+                                "Category": "Settings"
                             },
                             "Size": "Small"
                         },
@@ -112,8 +116,8 @@
                             "Setting": {
                                 "PluginId": "BuilderTools",
                                 "DataModel": "Standalone",
-                                "Category": "Settings",
-                                "ItemId": "JoinSurfaces"
+                                "ItemId": "JoinSurfaces",
+                                "Category": "Settings"
                             },
                             "Size": "Small"
                         },
@@ -127,8 +131,8 @@
                             "Setting": {
                                 "PluginId": "BuilderTools",
                                 "DataModel": "Standalone",
-                                "Category": "Settings",
-                                "ItemId": "SnapToParts"
+                                "ItemId": "SnapToParts",
+                                "Category": "Settings"
                             },
                             "Size": "Small"
                         }
@@ -137,10 +141,6 @@
                 }
             ],
             "Size": "Small"
-        },
-        {
-            "Type": "Separator",
-            "Size": "Large"
         },
         {
             "Type": "Row",
@@ -152,8 +152,8 @@
                             "Setting": {
                                 "PluginId": "BuilderTools",
                                 "DataModel": "Standalone",
-                                "Category": "Settings",
-                                "ItemId": "MoveGrid"
+                                "ItemId": "MoveGrid",
+                                "Category": "Settings"
                             },
                             "Id": "MoveGrid",
                             "Type": "Checkbox",
@@ -165,8 +165,8 @@
                             "Setting": {
                                 "PluginId": "BuilderTools",
                                 "DataModel": "Standalone",
-                                "Category": "Settings",
-                                "ItemId": "MoveGridSize"
+                                "ItemId": "MoveGridSize",
+                                "Category": "Settings"
                             }
                         }
                     ],
@@ -179,8 +179,8 @@
                             "Setting": {
                                 "PluginId": "BuilderTools",
                                 "DataModel": "Standalone",
-                                "Category": "Settings",
-                                "ItemId": "RotateGrid"
+                                "ItemId": "RotateGrid",
+                                "Category": "Settings"
                             },
                             "Id": "RotateGrid",
                             "Type": "Checkbox",
@@ -192,8 +192,8 @@
                             "Setting": {
                                 "PluginId": "BuilderTools",
                                 "DataModel": "Standalone",
-                                "Category": "Settings",
-                                "ItemId": "RotateGridSize"
+                                "ItemId": "RotateGridSize",
+                                "Category": "Settings"
                             }
                         }
                     ],
@@ -203,8 +203,8 @@
             "Tags": "ConvertibleToColumn"
         },
         {
-            "Type": "Separator",
-            "Size": "Large"
+            "Size": "Large",
+            "Type": "Separator"
         },
         {
             "Id": "Terrain",
@@ -212,13 +212,13 @@
             "Action": {
                 "PluginId": "TerrainTools",
                 "DataModel": "Standalone",
-                "Category": "Actions",
-                "ItemId": "Toggle"
+                "ItemId": "Toggle",
+                "Category": "Actions"
             }
         },
         {
-            "Type": "Separator",
-            "Size": "Large"
+            "Size": "Large",
+            "Type": "Separator"
         },
         {
             "Id": "3a942987-8ccd-41fe-8020-aff1b4c2677c",
@@ -226,32 +226,32 @@
             "Action": {
                 "PluginId": "Toolbox",
                 "DataModel": "Standalone",
-                "ItemId": "Toggle",
-                "Category": "Actions"
+                "Category": "Actions",
+                "ItemId": "Toggle"
             }
         },
         {
             "Id": "Part",
             "Type": "SplitButton",
+            "ShowSettingOptions": true,
             "Setting": {
                 "PluginId": "BuilderTools",
                 "DataModel": "Standalone",
-                "Category": "Settings",
-                "ItemId": "PartShape"
-            },
-            "ShowSettingOptions": true
+                "ItemId": "PartShape",
+                "Category": "Settings"
+            }
         },
         {
-            "Setting": {
-                "PluginId": "MeshImporter",
-                "DataModel": "Standalone",
-                "Category": "Settings",
-                "ItemId": "RibbonDropdown"
-            },
+            "ShowSettingOptions": true,
             "FastFlag": "ImportQueueRibbonDropdown",
             "Id": "MeshImport",
             "Type": "SplitButton",
-            "ShowSettingOptions": true
+            "Setting": {
+                "PluginId": "MeshImporter",
+                "DataModel": "Standalone",
+                "ItemId": "RibbonDropdown",
+                "Category": "Settings"
+            }
         },
         {
             "Id": "Material",
@@ -259,8 +259,8 @@
             "Action": {
                 "PluginId": "MaterialManager",
                 "DataModel": "Standalone",
-                "Category": "Actions",
-                "ItemId": "Toggle"
+                "ItemId": "Toggle",
+                "Category": "Actions"
             },
             "FastFlag": "!StudioAddMaterialPickerNewRibbon"
         },
@@ -270,22 +270,8 @@
             "Action": {
                 "PluginId": "UIVisibility",
                 "DataModel": "Standalone",
-                "Category": "Actions",
-                "ItemId": "Toggle"
-            }
-        },
-        {
-            "Type": "Separator",
-            "Size": "Large"
-        },
-        {
-            "Id": "a1a5ac53-3b6e-454e-ad6f-237a03bba236",
-            "Type": "IconButton",
-            "Action": {
-                "PluginId": "MeshImporter",
-                "DataModel": "Standalone",
-                "Category": "Actions",
-                "ItemId": "Toggle"
+                "ItemId": "Toggle",
+                "Category": "Actions"
             }
         },
         {
@@ -293,17 +279,31 @@
             "Type": "Separator"
         },
         {
+            "Id": "a1a5ac53-3b6e-454e-ad6f-237a03bba236",
+            "Type": "IconButton",
+            "Action": {
+                "PluginId": "MeshImporter",
+                "DataModel": "Standalone",
+                "ItemId": "Toggle",
+                "Category": "Actions"
+            }
+        },
+        {
+            "Type": "Separator",
+            "Size": "Large"
+        },
+        {
             "Action": {
                 "PluginId": "BuilderTools",
                 "DataModel": "Standalone",
-                "Category": "Actions",
-                "ItemId": "ApplyColor"
+                "ItemId": "ApplyColor",
+                "Category": "Actions"
             },
             "ChildAction": {
                 "PluginId": "BuilderTools",
                 "DataModel": "Standalone",
-                "Category": "Actions",
-                "ItemId": "SelectColor"
+                "ItemId": "SelectColor",
+                "Category": "Actions"
             },
             "Type": "SplitButton",
             "Id": "Color"
@@ -313,14 +313,14 @@
             "ChildAction": {
                 "PluginId": "MaterialPicker",
                 "DataModel": "Standalone",
-                "Category": "Actions",
-                "ItemId": "MaterialPickerDropdown"
+                "ItemId": "MaterialPickerDropdown",
+                "Category": "Actions"
             },
             "Action": {
                 "PluginId": "MaterialPicker",
                 "DataModel": "Standalone",
-                "Category": "Actions",
-                "ItemId": "MaterialPickerButton"
+                "ItemId": "MaterialPickerButton",
+                "Category": "Actions"
             },
             "FastFlag": "StudioAddMaterialPickerNewRibbon",
             "Id": "Material"
@@ -334,20 +334,61 @@
                     "Setting": {
                         "PluginId": "BuilderTools",
                         "DataModel": "Standalone",
-                        "ItemId": "Group",
-                        "Category": "Settings"
+                        "Category": "Settings",
+                        "ItemId": "Group"
                     },
                     "ShowSettingOptions": true,
                     "Size": "Small"
                 },
                 {
+                    "Children": [
+                        {
+                            "Type": "Column",
+                            "Children": [
+                                {
+                                    "Id": "e605dc43-f020-4a64-ae9e-9ec993de02f1",
+                                    "Type": "Button",
+                                    "Action": {
+                                        "PluginId": "BuilderTools",
+                                        "DataModel": "Standalone",
+                                        "Category": "Actions",
+                                        "ItemId": "Lock"
+                                    },
+                                    "Size": "Small"
+                                },
+                                {
+                                    "Id": "2218968f-9ce7-4af2-bcfd-e70fd811b2ae",
+                                    "Type": "Button",
+                                    "Action": {
+                                        "PluginId": "BuilderTools",
+                                        "DataModel": "Standalone",
+                                        "ItemId": "LockTool",
+                                        "Category": "Actions"
+                                    },
+                                    "Size": "Small"
+                                },
+                                {
+                                    "Id": "3eada4e9-9b67-49d2-b3c9-bf2a84bcbc7e",
+                                    "Type": "Button",
+                                    "Action": {
+                                        "PluginId": "BuilderTools",
+                                        "DataModel": "Standalone",
+                                        "Category": "Actions",
+                                        "ItemId": "UnlockAll"
+                                    },
+                                    "Size": "Small"
+                                }
+                            ],
+                            "Tags": "SpacingMedium"
+                        }
+                    ],
                     "IconOnly": true,
-                    "Type": "IconButton",
+                    "Type": "SplitButton",
                     "Action": {
                         "PluginId": "BuilderTools",
                         "DataModel": "Standalone",
-                        "Category": "Actions",
-                        "ItemId": "LockTool"
+                        "ItemId": "LockTool",
+                        "Category": "Actions"
                     },
                     "Id": "ac404535-a699-4a29-a628-3b9bb7619648",
                     "Size": "Small"
@@ -356,20 +397,50 @@
             "Type": "Column"
         },
         {
+            "Children": [
+                {
+                    "Type": "Column",
+                    "Children": [
+                        {
+                            "Id": "75b3c717-11d5-4b36-b0f9-5e453f55187c",
+                            "Type": "Button",
+                            "Action": {
+                                "PluginId": "BuilderTools",
+                                "DataModel": "Standalone",
+                                "ItemId": "Anchor",
+                                "Category": "Actions"
+                            },
+                            "Size": "Small"
+                        },
+                        {
+                            "Id": "404b2b18-d188-48ba-8b3a-293066d5015e",
+                            "Type": "Button",
+                            "Action": {
+                                "PluginId": "BuilderTools",
+                                "DataModel": "Standalone",
+                                "Category": "Actions",
+                                "ItemId": "AnchorTool"
+                            },
+                            "Size": "Small"
+                        }
+                    ],
+                    "Tags": "SpacingMedium"
+                }
+            ],
             "IconOnly": true,
-            "Type": "IconButton",
+            "Type": "SplitButton",
             "Action": {
                 "PluginId": "BuilderTools",
                 "DataModel": "Standalone",
-                "ItemId": "Anchor",
-                "Category": "Actions"
+                "Category": "Actions",
+                "ItemId": "Anchor"
             },
             "Id": "a2719446-9164-4ebe-a190-f4ad7f693251",
             "Size": "Small"
         },
         {
-            "Size": "Large",
-            "Type": "Separator"
+            "Type": "Separator",
+            "Size": "Large"
         },
         {
             "Id": "3144cf54-448d-46c3-a421-718ff9cdc6d3",
@@ -377,8 +448,8 @@
             "Action": {
                 "PluginId": "RunTools",
                 "DataModel": "Standalone",
-                "ItemId": "LaunchTestMode",
-                "Category": "Actions"
+                "Category": "Actions",
+                "ItemId": "LaunchTestMode"
             }
         },
         {
@@ -387,13 +458,13 @@
             "Action": {
                 "PluginId": "RunTools",
                 "DataModel": "Standalone",
-                "Category": "Actions",
-                "ItemId": "Stop"
+                "ItemId": "Stop",
+                "Category": "Actions"
             }
         },
         {
-            "Size": "Large",
-            "Type": "Separator"
+            "Type": "Separator",
+            "Size": "Large"
         },
         {
             "Id": "43aebda3-744b-43f6-af9e-cf5f4cbd1a58",
@@ -401,16 +472,13 @@
             "Action": {
                 "PluginId": "GameSettings",
                 "DataModel": "Standalone",
-                "Category": "Actions",
-                "ItemId": "Toggle"
+                "ItemId": "Toggle",
+                "Category": "Actions"
             }
         },
         {
-            "Size": "Large",
-            "Type": "Separator"
-        },
-        {
-            "made_by": "epicmy"
+            "Type": "Separator",
+            "Size": "Large"
         },
         {
             "Id": "6975789f-dfe7-41b7-8918-8926ec164ea3",
@@ -418,8 +486,8 @@
             "Action": {
                 "PluginId": "RunTools",
                 "DataModel": "Standalone",
-                "Category": "Actions",
-                "ItemId": "TeamTest"
+                "ItemId": "TeamTest",
+                "Category": "Actions"
             }
         },
         {
@@ -428,9 +496,13 @@
             "Action": {
                 "PluginId": "RunTools",
                 "DataModel": "Standalone",
-                "ItemId": "CleanupTeamTest",
-                "Category": "Actions"
+                "Category": "Actions",
+                "ItemId": "CleanupTeamTest"
             }
+        },
+        {
+            "github": "https://github.com/epicmy/Btr-Studio-Layout",
+            "made_by": "epicmy"
         }
     ]
 }

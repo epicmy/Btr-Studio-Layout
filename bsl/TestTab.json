@@ -6,8 +6,8 @@
             "Action": {
                 "PluginId": "RunTools",
                 "DataModel": "Standalone",
-                "Category": "Actions",
-                "ItemId": "LaunchTestMode"
+                "ItemId": "LaunchTestMode",
+                "Category": "Actions"
             }
         },
         {
@@ -16,8 +16,8 @@
             "Action": {
                 "PluginId": "RunTools",
                 "DataModel": "Standalone",
-                "Category": "Actions",
-                "ItemId": "PausePhysicsAll"
+                "ItemId": "PausePhysicsAll",
+                "Category": "Actions"
             }
         },
         {
@@ -26,8 +26,8 @@
             "Action": {
                 "PluginId": "RunTools",
                 "DataModel": "Standalone",
-                "ItemId": "ResumePhysicsAll",
-                "Category": "Actions"
+                "Category": "Actions",
+                "ItemId": "ResumePhysicsAll"
             }
         },
         {
@@ -36,13 +36,13 @@
             "Action": {
                 "PluginId": "RunTools",
                 "DataModel": "Standalone",
-                "Category": "Actions",
-                "ItemId": "Stop"
+                "ItemId": "Stop",
+                "Category": "Actions"
             }
         },
         {
-            "Size": "Large",
-            "Type": "Separator"
+            "Type": "Separator",
+            "Size": "Large"
         },
         {
             "Id": "b505b6c9-8080-473f-ad4d-8cb3ca2b7a1a",
@@ -50,8 +50,8 @@
             "Action": {
                 "PluginId": "RunTools",
                 "DataModel": "Standalone",
-                "Category": "Actions",
-                "ItemId": "ServerAndClients"
+                "ItemId": "ServerAndClients",
+                "Category": "Actions"
             }
         },
         {
@@ -61,8 +61,8 @@
             "Setting": {
                 "PluginId": "RunTools",
                 "DataModel": "Standalone",
-                "Category": "Settings",
-                "ItemId": "PlayersMode"
+                "ItemId": "PlayersMode",
+                "Category": "Settings"
             }
         },
         {
@@ -77,8 +77,8 @@
                             "Setting": {
                                 "PluginId": "RunTools",
                                 "DataModel": "Standalone",
-                                "Category": "Settings",
-                                "ItemId": "AddPlayer"
+                                "ItemId": "AddPlayer",
+                                "Category": "Settings"
                             }
                         },
                         {
@@ -86,13 +86,13 @@
                             "TextKey": "Add",
                             "Id": "AddClients_ServerAndClients",
                             "TextOnly": true,
+                            "Style": "Primary",
                             "Action": {
                                 "PluginId": "RunTools",
                                 "DataModel": "Standalone",
-                                "Category": "Actions",
-                                "ItemId": "AddClients"
+                                "ItemId": "AddClients",
+                                "Category": "Actions"
                             },
-                            "Style": "Primary",
                             "Size": "Small"
                         }
                     ],
@@ -105,8 +105,8 @@
             "Setting": {
                 "PluginId": "RunTools",
                 "DataModel": "Standalone",
-                "Category": "Settings",
-                "ItemId": "AddClients"
+                "ItemId": "AddClients",
+                "Category": "Settings"
             },
             "Size": "Small"
         },
@@ -116,31 +116,7 @@
             "Action": {
                 "PluginId": "RunTools",
                 "DataModel": "Standalone",
-                "Category": "Actions",
-                "ItemId": "CleanupServerAndClients"
-            }
-        },
-        {
-            "Size": "Large",
-            "Type": "Separator"
-        },
-        {
-            "Id": "58e8a332-0480-497c-bc55-cedf42c20e95",
-            "Type": "IconButton",
-            "Action": {
-                "PluginId": "DeviceEmulation",
-                "DataModel": "Standalone",
-                "Category": "Actions",
-                "ItemId": "Toggle"
-            }
-        },
-        {
-            "Id": "a1caaa26-dc6d-41e1-953d-5531bd3af678",
-            "Type": "IconButton",
-            "Action": {
-                "PluginId": "PlayerEmulation",
-                "DataModel": "Standalone",
-                "ItemId": "Toggle",
+                "ItemId": "CleanupServerAndClients",
                 "Category": "Actions"
             }
         },
@@ -149,16 +125,41 @@
             "Size": "Large"
         },
         {
+            "Id": "58e8a332-0480-497c-bc55-cedf42c20e95",
+            "Type": "IconButton",
+            "Action": {
+                "PluginId": "DeviceEmulation",
+                "DataModel": "Standalone",
+                "ItemId": "Toggle",
+                "Category": "Actions"
+            }
+        },
+        {
+            "Id": "a1caaa26-dc6d-41e1-953d-5531bd3af678",
+            "Type": "IconButton",
+            "Action": {
+                "PluginId": "PlayerEmulation",
+                "DataModel": "Standalone",
+                "Category": "Actions",
+                "ItemId": "Toggle"
+            }
+        },
+        {
+            "Size": "Large",
+            "Type": "Separator"
+        },
+        {
             "Id": "2cfac0e9-c2c2-497a-87a6-bf33f9b30105",
             "Type": "IconButton",
             "Action": {
                 "PluginId": "AppConfiguration",
                 "DataModel": "Standalone",
-                "ItemId": "ToggleAudio",
-                "Category": "Actions"
+                "Category": "Actions",
+                "ItemId": "ToggleAudio"
             }
         },
         {
+            "github": "https://github.com/epicmy/Btr-Studio-Layout",
             "made_by": "epicmy"
         }
     ],

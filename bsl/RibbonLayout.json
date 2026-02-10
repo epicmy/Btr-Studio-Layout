@@ -45,6 +45,13 @@
         {
             "Identifier": {
                 "Type": "BuiltIn",
+                "Filename": "ModelTab"
+            },
+            "Visible": false
+        },
+        {
+            "Identifier": {
+                "Type": "BuiltIn",
                 "Filename": "AvatarTab"
             },
             "Visible": false
@@ -60,13 +67,6 @@
             "Identifier": {
                 "Type": "BuiltIn",
                 "Filename": "ScriptTab"
-            },
-            "Visible": false
-        },
-        {
-            "Identifier": {
-                "Type": "BuiltIn",
-                "Filename": "ModelTab"
             },
             "Visible": false
         },

@@ -6,8 +6,8 @@
             "Action": {
                 "PluginId": "Explorer",
                 "DataModel": "Standalone",
-                "Category": "Actions",
-                "ItemId": "Toggle"
+                "ItemId": "Toggle",
+                "Category": "Actions"
             }
         },
         {
@@ -16,8 +16,8 @@
             "Action": {
                 "PluginId": "Properties",
                 "DataModel": "Standalone",
-                "ItemId": "Toggle",
-                "Category": "Actions"
+                "Category": "Actions",
+                "ItemId": "Toggle"
             }
         },
         {
@@ -28,8 +28,8 @@
                     "Action": {
                         "PluginId": "AssetManager",
                         "DataModel": "Standalone",
-                        "Category": "Actions",
-                        "ItemId": "Toggle"
+                        "ItemId": "Toggle",
+                        "Category": "Actions"
                     },
                     "Size": "Small"
                 },
@@ -39,8 +39,8 @@
                     "Action": {
                         "PluginId": "Toolbox",
                         "DataModel": "Standalone",
-                        "ItemId": "Toggle",
-                        "Category": "Actions"
+                        "Category": "Actions",
+                        "ItemId": "Toggle"
                     },
                     "Size": "Small"
                 }
@@ -55,8 +55,8 @@
                     "Action": {
                         "PluginId": "ObjectBrowser",
                         "DataModel": "Standalone",
-                        "Category": "Actions",
-                        "ItemId": "Toggle"
+                        "ItemId": "Toggle",
+                        "Category": "Actions"
                     },
                     "Size": "Small"
                 },
@@ -66,8 +66,8 @@
                     "Action": {
                         "PluginId": "Output",
                         "DataModel": "Standalone",
-                        "ItemId": "Toggle",
-                        "Category": "Actions"
+                        "Category": "Actions",
+                        "ItemId": "Toggle"
                     },
                     "Size": "Small"
                 }
@@ -82,8 +82,8 @@
                     "Action": {
                         "PluginId": "Analysis",
                         "DataModel": "Standalone",
-                        "Category": "Actions",
-                        "ItemId": "Toggle"
+                        "ItemId": "Toggle",
+                        "Category": "Actions"
                     },
                     "Size": "Small"
                 },
@@ -93,8 +93,8 @@
                     "Action": {
                         "PluginId": "CommandBar",
                         "DataModel": "Standalone",
-                        "ItemId": "Toggle",
-                        "Category": "Actions"
+                        "Category": "Actions",
+                        "ItemId": "Toggle"
                     },
                     "Size": "Small"
                 }
@@ -109,8 +109,8 @@
                     "Action": {
                         "PluginId": "Diagnostics",
                         "DataModel": "Standalone",
-                        "Category": "Actions",
-                        "ItemId": "Toggle"
+                        "ItemId": "Toggle",
+                        "Category": "Actions"
                     },
                     "Size": "Small"
                 },
@@ -120,8 +120,8 @@
                     "Action": {
                         "PluginId": "TaskScheduler",
                         "DataModel": "Standalone",
-                        "ItemId": "Toggle",
-                        "Category": "Actions"
+                        "Category": "Actions",
+                        "ItemId": "Toggle"
                     },
                     "Size": "Small"
                 }
@@ -136,8 +136,8 @@
                     "Action": {
                         "PluginId": "Edit",
                         "DataModel": "Standalone",
-                        "ItemId": "FindAll",
-                        "Category": "Actions"
+                        "Category": "Actions",
+                        "ItemId": "FindAll"
                     },
                     "Size": "Small"
                 },
@@ -147,8 +147,8 @@
                     "Action": {
                         "PluginId": "Edit",
                         "DataModel": "Standalone",
-                        "Category": "Actions",
-                        "ItemId": "ReplaceAll"
+                        "ItemId": "ReplaceAll",
+                        "Category": "Actions"
                     },
                     "Size": "Small"
                 }
@@ -163,8 +163,8 @@
                     "Action": {
                         "PluginId": "ManageCollaborators",
                         "DataModel": "Standalone",
-                        "ItemId": "Open",
-                        "Category": "Actions"
+                        "Category": "Actions",
+                        "ItemId": "Open"
                     },
                     "Size": "Small"
                 },
@@ -174,8 +174,8 @@
                     "Action": {
                         "PluginId": "TerrainTools",
                         "DataModel": "Standalone",
-                        "Category": "Actions",
-                        "ItemId": "Toggle"
+                        "ItemId": "Toggle",
+                        "Category": "Actions"
                     },
                     "Size": "Small"
                 }
@@ -190,8 +190,8 @@
                     "Action": {
                         "PluginId": "TagEditor",
                         "DataModel": "Standalone",
-                        "ItemId": "Toggle",
-                        "Category": "Actions"
+                        "Category": "Actions",
+                        "ItemId": "Toggle"
                     },
                     "Id": "9b1d5913-befd-4378-b54d-538f2512b820",
                     "Size": "Small"
@@ -202,8 +202,8 @@
                     "Action": {
                         "PluginId": "CallStack",
                         "DataModel": "Standalone",
-                        "Category": "Actions",
-                        "ItemId": "Toggle"
+                        "ItemId": "Toggle",
+                        "Category": "Actions"
                     },
                     "Size": "Small"
                 }
@@ -218,8 +218,8 @@
                     "Action": {
                         "PluginId": "Breakpoints",
                         "DataModel": "Standalone",
-                        "ItemId": "Toggle",
-                        "Category": "Actions"
+                        "Category": "Actions",
+                        "ItemId": "Toggle"
                     },
                     "Size": "Small"
                 },
@@ -229,8 +229,8 @@
                     "Action": {
                         "PluginId": "Watch",
                         "DataModel": "Standalone",
-                        "Category": "Actions",
-                        "ItemId": "Toggle"
+                        "ItemId": "Toggle",
+                        "Category": "Actions"
                     },
                     "Size": "Small"
                 }
@@ -245,8 +245,8 @@
                     "Action": {
                         "PluginId": "AssistantPlugin",
                         "DataModel": "Standalone",
-                        "ItemId": "Toggle",
-                        "Category": "Actions"
+                        "Category": "Actions",
+                        "ItemId": "Toggle"
                     },
                     "Size": "Small"
                 },
@@ -256,8 +256,8 @@
                     "Action": {
                         "PluginId": "TextureGenerator",
                         "DataModel": "Standalone",
-                        "Category": "Actions",
-                        "ItemId": "Toggle"
+                        "ItemId": "Toggle",
+                        "Category": "Actions"
                     },
                     "Size": "Small"
                 }
@@ -265,8 +265,8 @@
             "Type": "Column"
         },
         {
-            "Type": "Separator",
-            "Size": "Large"
+            "Size": "Large",
+            "Type": "Separator"
         },
         {
             "Id": "fc0ed5be-7ac0-4ddb-acca-ee8258ad869e",
@@ -274,8 +274,8 @@
             "Action": {
                 "PluginId": "ViewSelector",
                 "DataModel": "Standalone",
-                "ItemId": "Toggle",
-                "Category": "Actions"
+                "Category": "Actions",
+                "ItemId": "Toggle"
             }
         },
         {
@@ -284,8 +284,8 @@
             "Action": {
                 "PluginId": "WindControl",
                 "DataModel": "Standalone",
-                "Category": "Actions",
-                "ItemId": "Toggle"
+                "ItemId": "Toggle",
+                "Category": "Actions"
             }
         },
         {
@@ -294,8 +294,8 @@
             "Action": {
                 "PluginId": "WindowManagement",
                 "DataModel": "Standalone",
-                "ItemId": "FullScreen",
-                "Category": "Actions"
+                "Category": "Actions",
+                "ItemId": "FullScreen"
             }
         },
         {
@@ -304,8 +304,8 @@
             "Action": {
                 "PluginId": "Common",
                 "DataModel": "Standalone",
-                "Category": "Actions",
-                "ItemId": "ScreenShot"
+                "ItemId": "ScreenShot",
+                "Category": "Actions"
             }
         },
         {
@@ -314,13 +314,13 @@
             "Action": {
                 "PluginId": "VideoRecord",
                 "DataModel": "Standalone",
-                "ItemId": "Toggle",
-                "Category": "Actions"
+                "Category": "Actions",
+                "ItemId": "Toggle"
             }
         },
         {
-            "Type": "Separator",
-            "Size": "Large"
+            "Size": "Large",
+            "Type": "Separator"
         },
         {
             "Children": [
@@ -330,8 +330,8 @@
                     "Action": {
                         "PluginId": "3DGrid",
                         "DataModel": "Standalone",
-                        "ItemId": "SetGridSizeToTwo",
-                        "Category": "Actions"
+                        "Category": "Actions",
+                        "ItemId": "SetGridSizeToTwo"
                     },
                     "Id": "0409ce7a-3dd9-42a6-b14b-8b52de881587",
                     "Size": "Small"
@@ -342,8 +342,8 @@
                     "Action": {
                         "PluginId": "3DGrid",
                         "DataModel": "Standalone",
-                        "Category": "Actions",
-                        "ItemId": "SetGridSizeToFour"
+                        "ItemId": "SetGridSizeToFour",
+                        "Category": "Actions"
                     },
                     "Id": "91d12306-855e-491b-b19c-af7b201c36d5",
                     "Size": "Small"
@@ -357,8 +357,8 @@
             "Action": {
                 "PluginId": "3DGrid",
                 "DataModel": "Standalone",
-                "ItemId": "SetGridSizeToSixteen",
-                "Category": "Actions"
+                "Category": "Actions",
+                "ItemId": "SetGridSizeToSixteen"
             },
             "Id": "1a87b294-16e5-42cd-8080-49dcc775b9ef",
             "Size": "Small"
@@ -369,8 +369,8 @@
             "Action": {
                 "PluginId": "3DGrid",
                 "DataModel": "Standalone",
-                "Category": "Actions",
-                "ItemId": "Toggle"
+                "ItemId": "Toggle",
+                "Category": "Actions"
             }
         },
         {
@@ -379,8 +379,8 @@
             "Action": {
                 "PluginId": "GridMaterial",
                 "DataModel": "Standalone",
-                "ItemId": "Toggle",
-                "Category": "Actions"
+                "Category": "Actions",
+                "ItemId": "Toggle"
             }
         },
         {
@@ -389,8 +389,8 @@
             "Action": {
                 "PluginId": "WireframeRendering",
                 "DataModel": "Standalone",
-                "Category": "Actions",
-                "ItemId": "Toggle"
+                "ItemId": "Toggle",
+                "Category": "Actions"
             }
         },
         {
@@ -399,13 +399,13 @@
             "Action": {
                 "PluginId": "UIVisibility",
                 "DataModel": "Standalone",
-                "ItemId": "Toggle",
-                "Category": "Actions"
+                "Category": "Actions",
+                "ItemId": "Toggle"
             }
         },
         {
-            "Type": "Separator",
-            "Size": "Large"
+            "Size": "Large",
+            "Type": "Separator"
         },
         {
             "Children": [
@@ -414,8 +414,8 @@
                     "Action": {
                         "PluginId": "Statistics",
                         "DataModel": "Standalone",
-                        "ItemId": "General",
-                        "Category": "Actions"
+                        "Category": "Actions",
+                        "ItemId": "General"
                     },
                     "TextOnly": true,
                     "Id": "af3ad5a2-b9f5-4a57-88a4-47cc364ef607",
@@ -426,8 +426,8 @@
                     "Action": {
                         "PluginId": "Statistics",
                         "DataModel": "Standalone",
-                        "Category": "Actions",
-                        "ItemId": "Render"
+                        "ItemId": "Render",
+                        "Category": "Actions"
                     },
                     "TextOnly": true,
                     "Id": "35f39e97-1a3b-47a5-ad6d-a9584383541b",
@@ -443,8 +443,8 @@
                     "Action": {
                         "PluginId": "Statistics",
                         "DataModel": "Standalone",
-                        "ItemId": "Physics",
-                        "Category": "Actions"
+                        "Category": "Actions",
+                        "ItemId": "Physics"
                     },
                     "TextOnly": true,
                     "Id": "ddced0c3-6b2b-4333-ba2c-9e66672589be",
@@ -455,8 +455,8 @@
                     "Action": {
                         "PluginId": "Statistics",
                         "DataModel": "Standalone",
-                        "Category": "Actions",
-                        "ItemId": "Network"
+                        "ItemId": "Network",
+                        "Category": "Actions"
                     },
                     "TextOnly": true,
                     "Id": "c25d81fc-20cb-4de9-8ce5-30978c952b32",
@@ -470,8 +470,8 @@
             "Action": {
                 "PluginId": "Statistics",
                 "DataModel": "Standalone",
-                "ItemId": "Summary",
-                "Category": "Actions"
+                "Category": "Actions",
+                "ItemId": "Summary"
             },
             "TextOnly": true,
             "Id": "6ae56a4f-8ecb-4fc4-b016-2703e720c20a",
@@ -483,11 +483,12 @@
             "Action": {
                 "PluginId": "Statistics",
                 "DataModel": "Standalone",
-                "ItemId": "Clear",
-                "Category": "Actions"
+                "Category": "Actions",
+                "ItemId": "Clear"
             }
         },
         {
+            "github": "https://github.com/epicmy/Btr-Studio-Layout",
             "made_by": "epicmy"
         }
     ],

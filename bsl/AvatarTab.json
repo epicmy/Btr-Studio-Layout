@@ -67,14 +67,18 @@
             }
         },
         {
+            "Size": "Large",
+            "Type": "Separator"
+        },
+        {
+            "Type": "SplitButton",
+            "Id": "DraggerMode",
             "Setting": {
                 "PluginId": "BuilderTools",
                 "DataModel": "Standalone",
                 "ItemId": "DraggerMode",
                 "Category": "Settings"
             },
-            "Id": "DraggerMode",
-            "Type": "SplitButton",
             "Children": [
                 {
                     "Type": "Column",
@@ -137,24 +141,20 @@
             "Size": "Small"
         },
         {
-            "Size": "Large",
-            "Type": "Separator"
-        },
-        {
             "Type": "Row",
             "Children": [
                 {
                     "Children": [
                         {
                             "IconOnly": true,
+                            "Type": "Checkbox",
+                            "Id": "MoveGrid",
                             "Setting": {
                                 "PluginId": "BuilderTools",
                                 "DataModel": "Standalone",
                                 "ItemId": "MoveGrid",
                                 "Category": "Settings"
                             },
-                            "Id": "MoveGrid",
-                            "Type": "Checkbox",
                             "Size": "Small"
                         },
                         {
@@ -174,14 +174,14 @@
                     "Children": [
                         {
                             "IconOnly": true,
+                            "Type": "Checkbox",
+                            "Id": "RotateGrid",
                             "Setting": {
                                 "PluginId": "BuilderTools",
                                 "DataModel": "Standalone",
                                 "ItemId": "RotateGrid",
                                 "Category": "Settings"
                             },
-                            "Id": "RotateGrid",
-                            "Type": "Checkbox",
                             "Size": "Small"
                         },
                         {
@@ -267,6 +267,7 @@
             }
         },
         {
+            "github": "https://github.com/epicmy/Btr-Studio-Layout",
             "made_by": "epicmy"
         }
     ],

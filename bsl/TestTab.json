@@ -1,13 +1,64 @@
 {
     "Controls": [
         {
-            "Id": "637c2f9f-720d-4c17-9e67-b04b919a105b",
+            "Id": "3144cf54-448d-46c3-a421-718ff9cdc6d3",
+            "Type": "SplitButton",
+            "Action": {
+                "PluginId": "RunTools",
+                "DataModel": "Standalone",
+                "Category": "Actions",
+                "ItemId": "LaunchTestMode"
+            },
+            "Children": [
+                {
+                    "Type": "Column",
+                    "Children": [
+                        {
+                            "Id": "2432a60b-fc36-44fb-934f-f3ce73cd69ff",
+                            "Type": "Button",
+                            "Action": {
+                                "PluginId": "RunTools",
+                                "DataModel": "Standalone",
+                                "Category": "Actions",
+                                "ItemId": "Play"
+                            },
+                            "Size": "Small"
+                        },
+                        {
+                            "Id": "44c8b417-05d1-499d-8baf-c0d9e4807762",
+                            "Type": "Button",
+                            "Action": {
+                                "PluginId": "RunTools",
+                                "DataModel": "Standalone",
+                                "ItemId": "PlayHere",
+                                "Category": "Actions"
+                            },
+                            "Size": "Small"
+                        },
+                        {
+                            "Id": "ff57c286-089c-4758-b06b-c3602d559285",
+                            "Type": "Button",
+                            "Action": {
+                                "PluginId": "RunTools",
+                                "DataModel": "Standalone",
+                                "Category": "Actions",
+                                "ItemId": "Run"
+                            },
+                            "Size": "Small"
+                        }
+                    ],
+                    "Tags": "SpacingMedium"
+                }
+            ]
+        },
+        {
+            "Id": "4768a34b-2709-4300-b77d-1a258b42e19f",
             "Type": "IconButton",
             "Action": {
                 "PluginId": "RunTools",
                 "DataModel": "Standalone",
-                "ItemId": "LaunchTestMode",
-                "Category": "Actions"
+                "Category": "Actions",
+                "ItemId": "ToggleDM"
             }
         },
         {
@@ -28,6 +79,16 @@
                 "DataModel": "Standalone",
                 "Category": "Actions",
                 "ItemId": "ResumePhysicsAll"
+            }
+        },
+        {
+            "Id": "4014492f-3ca1-4d70-842a-beb2ba1532f0",
+            "Type": "IconButton",
+            "Action": {
+                "PluginId": "RunTools",
+                "DataModel": "Standalone",
+                "ItemId": "StepForwardPhysicsAll",
+                "Category": "Actions"
             }
         },
         {
@@ -82,8 +143,8 @@
                             }
                         },
                         {
-                            "Type": "Button",
                             "TextKey": "Add",
+                            "Type": "Button",
                             "Id": "AddClients_ServerAndClients",
                             "TextOnly": true,
                             "Style": "Primary",
@@ -100,14 +161,14 @@
                 }
             ],
             "IconOnly": true,
-            "Type": "SplitButton",
-            "Id": "AddClients_ServerAndClients",
             "Setting": {
                 "PluginId": "RunTools",
                 "DataModel": "Standalone",
                 "ItemId": "AddClients",
                 "Category": "Settings"
             },
+            "Id": "AddClients_ServerAndClients",
+            "Type": "SplitButton",
             "Size": "Small"
         },
         {
@@ -129,6 +190,16 @@
             "Type": "IconButton",
             "Action": {
                 "PluginId": "DeviceEmulation",
+                "DataModel": "Standalone",
+                "ItemId": "Toggle",
+                "Category": "Actions"
+            }
+        },
+        {
+            "Id": "988831a3-6a3a-47a3-a725-101705a0d0af",
+            "Type": "IconButton",
+            "Action": {
+                "PluginId": "ControlsEmulator",
                 "DataModel": "Standalone",
                 "ItemId": "Toggle",
                 "Category": "Actions"

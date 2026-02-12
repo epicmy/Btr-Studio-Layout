@@ -67,18 +67,28 @@
             }
         },
         {
+            "Id": "390aaae3-4f18-4d58-825c-15e7b0f0a08a",
+            "Type": "IconButton",
+            "Action": {
+                "PluginId": "BuilderTools",
+                "DataModel": "Standalone",
+                "ItemId": "Transform",
+                "Category": "Actions"
+            }
+        },
+        {
             "Size": "Large",
             "Type": "Separator"
         },
         {
-            "Type": "SplitButton",
-            "Id": "DraggerMode",
             "Setting": {
                 "PluginId": "BuilderTools",
                 "DataModel": "Standalone",
                 "ItemId": "DraggerMode",
                 "Category": "Settings"
             },
+            "Id": "DraggerMode",
+            "Type": "SplitButton",
             "Children": [
                 {
                     "Type": "Column",
@@ -147,14 +157,14 @@
                     "Children": [
                         {
                             "IconOnly": true,
-                            "Type": "Checkbox",
-                            "Id": "MoveGrid",
                             "Setting": {
                                 "PluginId": "BuilderTools",
                                 "DataModel": "Standalone",
                                 "ItemId": "MoveGrid",
                                 "Category": "Settings"
                             },
+                            "Id": "MoveGrid",
+                            "Type": "Checkbox",
                             "Size": "Small"
                         },
                         {
@@ -174,14 +184,14 @@
                     "Children": [
                         {
                             "IconOnly": true,
-                            "Type": "Checkbox",
-                            "Id": "RotateGrid",
                             "Setting": {
                                 "PluginId": "BuilderTools",
                                 "DataModel": "Standalone",
                                 "ItemId": "RotateGrid",
                                 "Category": "Settings"
                             },
+                            "Id": "RotateGrid",
+                            "Type": "Checkbox",
                             "Size": "Small"
                         },
                         {
@@ -255,6 +265,20 @@
         {
             "Size": "Large",
             "Type": "Separator"
+        },
+        {
+            "Id": "ca1e0378-ff1b-467b-b021-51efae5fd5f4",
+            "Type": "IconButton",
+            "Action": {
+                "PluginId": "AvatarSettings",
+                "DataModel": "Standalone",
+                "ItemId": "Toggle",
+                "Category": "Actions"
+            }
+        },
+        {
+            "Type": "Separator",
+            "Size": "Large"
         },
         {
             "Id": "e1c29637-d933-4cfc-a0a4-8f41b3f21088",

@@ -16,11 +16,14 @@ From personal experience Roblox Studio updates *shouldn't* reset the custom tabs
 
 1. Download latest version ```bsl.zip```
 2. Search ⁨⁨```⁩%localappdata%⁨```⁩⁩ in your searchbar
-3. In ```localappdata``` find the ⁨⁨```⁩Roblox⁨```⁩⁩ folder
+3. In ```appdata\local``` find the ⁨⁨```⁩Roblox⁨```⁩⁩ folder
 4. Open the folder and find your **Roblox UserID** (a string of numbers)
 5. In that folder open ⁨⁨```⁩CustomRibbonTabs⁨```⁩⁩
 6. Drag and drop all JSON files from ⁨⁨```⁩bsl.zip⁨```⁩⁩ into ⁨⁨```⁩CustomRibbonTabs⁨```⁩⁩ (just a warning this might mess with your own created custom tabs)
-7. You're done 👍
+7. Go to Studio and right click at the top (Where your current tabs are)
+8. Press the three dots at the right of the box
+9. Press ```Reload custom tabs```
+10. You're done 👍
 
 # ⚙️ Recommended Settings
 
